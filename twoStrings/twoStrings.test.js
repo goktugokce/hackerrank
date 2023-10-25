@@ -1,5 +1,6 @@
 const twoStrings = require('./twoStrings');
 
 test('twoStrings', () => {
-  expect(twoStrings()).toBe();
+  expect(twoStrings('abc', 'axx')).toBe('YES');
+  expect(twoStrings('abcdfsfsfsasd', 'yuiouiuyui')).toBe('NO');
 });
